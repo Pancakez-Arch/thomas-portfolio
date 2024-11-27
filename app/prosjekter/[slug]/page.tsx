@@ -18,7 +18,7 @@ const getData = async (slug: string) => {
 };
 
 export default async function PostPage(props: Props) {
-  const resolvedParams = await props.params;
+  const resolvedParams = await propss.params;
   const slug = resolvedParams.slug;
 
   const data = await getData(slug);
